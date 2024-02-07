@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* /* font-family: Montserrat','Roboto', 'sans-serif' */
+    background-color: #f4f4f4; 
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.canvas {
+    background-color: #fff; /* White background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h1 {
+    color: #333; /* Dark gray text */
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #555; /* Medium gray text */
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+}
+
+#calculate {
+    background-color: #4285f4; /* Google Blue */
+    color: #fff; /* White text */
+}
+
+#reset {
+    background-color: #ea4335; /* Google Red */
+    color: #fff; /* White text */
+}
+
+#results {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #e0f7fa; /* Light Blue background for results */
+    border-radius: 4px;
+}
+
+#weight-guide {
+    margin-top: 20px;
+}
+
+h3 {
+    color: #333; /* Dark gray text */
+}
